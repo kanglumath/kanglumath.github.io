@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1727127641.23477 "KangLu.tex" "KangLu.pdf" "KangLu" 1727127641.85154 0
+["pdflatex"] 1729517700.65741 "KangLu.tex" "KangLu.pdf" "KangLu" 1729517701.29198 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -97,6 +97,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def" 1663965824 19448 1e988b341dda20961a6b931bcde55519 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty" 1654720880 7233 e46ce9241d2b2ca2a78155475fdd557a ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty" 1654720880 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty" 1654720880 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
@@ -142,11 +143,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1726794043.92367 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1726793974 8221424 80a54ada53dc2dd707aadcfdf60b8512 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "KangLu.aux" 1727127641.76675 1488 b31b02e6390157a4862f897885b9882c "pdflatex"
-  "KangLu.out" 1727127641.76702 1468 0d1f5d6fdc4124b72aca7cd50b9b1fb6 "pdflatex"
-  "KangLu.tex" 1727127623.61703 21522 1043f1b8a8424093ee16ab5fe69ded81 ""
+  "KangLu.aux" 1729517701.20819 1603 91db398fbff93ea13ae8a0d95d80b4a7 "pdflatex"
+  "KangLu.out" 1729517701.20848 1677 ff597929b7c546f435f9a35565d4c666 "pdflatex"
+  "KangLu.tex" 1729517700.54882 21880 78c4cd66c80e35ebd810f6e864deda58 ""
   "moderncv.cls" 1683314052 17249 124074b0a3329675b3f41dd1b88403d1 ""
-  "moderncvcolorblue.sty" 1683314052 1008 81d85f2fad060c2f7b374363b6bb7415 ""
+  "moderncvcolorblack.sty" 1683314052 985 91998c460583ebbab2a53e25d97e470f ""
   "moderncvcompatibility.sty" 1683314052 3397 6646c8798a6ebba586650d124c645c99 ""
   "moderncvstyleclassic.sty" 1683314052 13047 a46aa7ced537d21ba9f1d9a22c434cb7 ""
   "tweaklist.sty" 1683314052 1965 7ec24f2691e7167d3f5445b230b1b4e4 ""
