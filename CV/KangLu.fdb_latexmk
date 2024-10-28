@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1729517700.65741 "KangLu.tex" "KangLu.pdf" "KangLu" 1729517701.29198 0
+["pdflatex"] 1730147677.3931 "KangLu.tex" "KangLu.pdf" "KangLu" 1730147678.0052 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1202520719 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -143,9 +143,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1726794043.92367 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1726793974 8221424 80a54ada53dc2dd707aadcfdf60b8512 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "KangLu.aux" 1729517701.20819 1603 91db398fbff93ea13ae8a0d95d80b4a7 "pdflatex"
-  "KangLu.out" 1729517701.20848 1677 ff597929b7c546f435f9a35565d4c666 "pdflatex"
-  "KangLu.tex" 1729517700.54882 21880 78c4cd66c80e35ebd810f6e864deda58 ""
+  "KangLu.aux" 1730147677.92302 1700 99bb54a3d90a435b17434b7bd171d0d7 "pdflatex"
+  "KangLu.out" 1730147677.92333 1787 ef67e67a1f35bb1a58967f8aff47335b "pdflatex"
+  "KangLu.tex" 1730147676.62092 22260 4ab8c5af75d279dd47b6f410caa01b73 ""
   "moderncv.cls" 1683314052 17249 124074b0a3329675b3f41dd1b88403d1 ""
   "moderncvcolorblack.sty" 1683314052 985 91998c460583ebbab2a53e25d97e470f ""
   "moderncvcompatibility.sty" 1683314052 3397 6646c8798a6ebba586650d124c645c99 ""

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.19)  21 OCT 2024 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.19)  28 OCT 2024 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -477,15 +477,15 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(30.71663pt, 552.86174pt, 30.71663pt)
-* v-part:(T,H,B)=(31.80072pt, 715.46812pt, 47.70114pt)
+* h-part:(L,W,R)=(61.42856pt, 491.43787pt, 61.42857pt)
+* v-part:(T,H,B)=(63.59662pt, 635.97841pt, 95.39496pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=552.86174pt
-* \textheight=715.46812pt
-* \oddsidemargin=-41.55336pt
-* \evensidemargin=-41.55336pt
-* \topmargin=-77.46927pt
+* \textwidth=491.43787pt
+* \textheight=635.97841pt
+* \oddsidemargin=-10.84143pt
+* \evensidemargin=-10.84143pt
+* \topmargin=-45.67337pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -589,40 +589,54 @@ File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
 al/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
 4/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-di
 st/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/d
-vips/lm/lm-mathsy.enc}]
-Overfull \hbox (8.27583pt too wide) in paragraph at lines 143--144
-[]$[]$\T1/lmr/m/n/10.95 (-20) , Weiqiang Wang, and Weinan Zhang, \T1/lmr/m/it/1
-0.95 (-20) A Drin-feld type pre-sen-ta-tion of twisted Yan-gians\T1/lmr/m/n/10.
-95 (-20) , [][]arXiv:2308.12254[][]. 
- []
-
-
-Overfull \hbox (9.89928pt too wide) in paragraph at lines 148--149
-[]$[]$ \T1/lmr/m/n/10.95 (-20) and Weinan Zhang, \T1/lmr/m/it/10.95 (-20) A Dri
-n-feld type pre-sen-ta-tion of twisted Yan-gians of quasi-split type\T1/lmr/m/n
-/10.95 (-20) , [][]arXiv:2408.06981[][]. 
- []
-
-[2]
+vips/lm/lm-mathsy.enc}] [2]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [3] [4] [5] (./KangLu.aux)
+ [3] [4] [5]
+Underfull \hbox (badness 1163) in paragraph at lines 347--347
+[][][]\T1/lmr/bx/n/10.95 (+20) Jonathan Brun-dan[][]\T1/lmr/m/n/10.95 (+20) , \
+T1/lmr/m/sl/10.95 (+20) Uni-ver-sity of Ore-gon\T1/lmr/m/n/10.95 (+20) , De-par
+t-ment of Math-e-mat-ics,
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 349--349
+[][][]\T1/lmr/bx/n/10.95 (+20) Andrew Lin-shaw[][]\T1/lmr/m/n/10.95 (+20) , \T1
+/lmr/m/sl/10.95 (+20) Uni-ver-sity of Den-ver\T1/lmr/m/n/10.95 (+20) , De-part-
+ment of Math-e-mat-ics,
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 355--355
+[][][]\T1/lmr/bx/n/10.95 (+20) Weiqiang Wang[][]\T1/lmr/m/n/10.95 (+20) , \T1/l
+mr/m/sl/10.95 (+20) Uni-ver-sity of Vir-ginia\T1/lmr/m/n/10.95 (+20) , De-part-
+ment of Math-e-mat-ics,
+ []
+
+
+Underfull \hbox (badness 6047) in paragraph at lines 357--357
+[][][]\T1/lmr/bx/n/10.95 (+20) Ben Web-ster[][]\T1/lmr/m/n/10.95 (+20) , \T1/lm
+r/m/sl/10.95 (+20) Uni-ver-sity of Wa-ter-loo\T1/lmr/m/n/10.95 (+20) , De-part-
+ment of Math-e-mat-ics,
+ []
+
+[6] [7] (./KangLu.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `KangLu.out' has not changed.
-(rerunfilecheck)             Checksum: FF597929B7C546F435F9A35565D4C666;1677.
+(rerunfilecheck)             Checksum: EF67E67A1F35BB1A58967F8AFF47335B;1787.
  ) 
 Here is how much of TeX's memory you used:
- 13563 strings out of 474116
- 220845 string characters out of 5743682
- 1950187 words of memory out of 5000000
- 35509 multiletter control sequences out of 15000+600000
- 629154 words of font info for 164 fonts, out of 8000000 for 9000
+ 13605 strings out of 474116
+ 221315 string characters out of 5743682
+ 1948187 words of memory out of 5000000
+ 35510 multiletter control sequences out of 15000+600000
+ 631010 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,13n,93p,1003b,608s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,13n,93p,1003b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/tex
@@ -639,10 +653,10 @@ ype1/public/lm/lmro10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publi
 c/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on KangLu.pdf (5 pages, 329234 bytes).
+Output written on KangLu.pdf (7 pages, 333228 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 34929 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 34937 words of extra memory for PDF output out of 35830 (max. 10000000)
 
