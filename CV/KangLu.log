@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.19)  4 NOV 2024 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.19)  6 NOV 2024 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -653,10 +653,10 @@ ype1/public/lm/lmro10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publi
 c/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on KangLu.pdf (7 pages, 333684 bytes).
+Output written on KangLu.pdf (7 pages, 333677 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
+ 258 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
  30 named destinations out of 1000 (max. 500000)
  34937 words of extra memory for PDF output out of 35830 (max. 10000000)
 
