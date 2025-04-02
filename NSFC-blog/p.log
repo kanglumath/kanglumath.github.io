@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.19)  2 APR 2025 09:59
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.19)  2 APR 2025 11:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -823,30 +823,30 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 12.0pt
 (hyperref)                removed on input line 45.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 71
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 73
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 71
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 73
 .
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Overfull \hbox (1.63469pt too wide) in paragraph at lines 73--74
+Overfull \hbox (1.63469pt too wide) in paragraph at lines 75--76
 \TU/Times(0)/b/n/12 twisted Yangians \TU/KaiTi(0)/b/n/12 的 \TU/Times(0)/b/n/12 
 Drinfeld \TU/KaiTi(0)/b/n/12 实 现 的 大 门\TU/KaiTi(0)/m/n/12 。|  在 后 续 的 工 作 中  |（
 \TU/Times(0)/m/n/12 arXiv:2406.05067\TU/KaiTi(0)/m/n/12 ，| \TU/Times(0)/m/n/12 
@@ -856,41 +856,40 @@ arXiv:2408.06981\TU/KaiTi(0)/m/n/12 ） ，|
 [1
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 81.
-
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 85.
+ [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\kaishu' on input line 97.
+(hyperref)                removing `\kaishu' on input line 109.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 12.0pt
-(hyperref)                removed on input line 97.
+(hyperref)                removed on input line 109.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fontspec' on input line 97.
+(hyperref)                removing `\fontspec' on input line 109.
 
-[2]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 110
+LaTeX Font Info:    Trying to load font information for U+euf on input line 124
 .
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/ueuf.fd
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
+) [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\kaishu' on input line 128.
+(hyperref)                removing `\kaishu' on input line 146.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 12.0pt
-(hyperref)                removed on input line 128.
+(hyperref)                removed on input line 146.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fontspec' on input line 128.
+(hyperref)                removing `\fontspec' on input line 146.
 
-[3] [4] (./p.aux)
+[4] [5] (./p.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -905,6 +904,6 @@ Here is how much of TeX's memory you used:
  40606 multiletter control sequences out of 15000+600000
  572016 words of font info for 156 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,6n,97p,992b,406s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,6n,97p,992b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on p.pdf (4 pages).
+Output written on p.pdf (5 pages).
