@@ -13,7 +13,7 @@
 
 %默认小四号字。允许楷体粗体。
 \documentclass[12pt,UTF8,AutoFakeBold=4,a4paper]{ctexart} 
-\usepackage{amsmath,amssymb,graphicx,mathrsfs}
+\usepackage{amsmath,amssymb,graphicx,mathrsfs,bm}
 \include{pkgs}
 \input{cmds}
 
@@ -47,10 +47,16 @@
 {\color{MsBlue} \subsection{\sihao \kaishu \qquad \ 
 \textbf{（一）主要学术成绩}{\normalfont（建议不超过4000字）}}}
 
+%\medskip
+
 {\color{MsBlue} \xiaosihao \fontspec{Times New Roman} 
 \textbf{Major academic achievements (no more than 4000 words)}}
 
+\medskip
+
 {\sihao \kaishu \color{MsBlue} 着重阐述所取得研究成果的创新性、科学价值及本人贡献等。}
+
+\medskip
 
 {\color{MsBlue} \xiaosihao \fontspec{Times New Roman} In this part, you shall focus on the innovativeness and scientific value of the research results, and your personal contribution.}
 
@@ -86,10 +92,9 @@ quantum symmetric pairs that will help \textbf{bring the theories of twisted Yan
 
 仿射量子群通常有三种常用的实现方式，即Drinfeld-Jimbo、Drinfeld、和R-matrix实现。不同的实现方式有不同的优势，有些实现方式在研究特定问题如可积系统的对称性、表示论、或与几何之间的联系比其他实现方式更方便。比如说Drinfeld实现是研究仿射量子群的表示论主要工具，它能用来定义$q$-特征，统一地给有限维不可约表示进行分类，定义截断shifted仿射量子群（包括Yangians）并研究其与仿射Grassmannian切片（或更进一步与K-理论版本的Coulomb分支）的联系等。另一方面，Drinfeld-Jimbo和R-matrix实现相比Drinfeld实现能更好地描述仿射量子群的Hopf代数结构，特别是它们的余积（coproduct）。因此\textbf{找到仿射量子群不同实现方式的之间的直接同构与联系是非常重要且有用的工作}。这一系列工作由Beck，Ding-Frenkel，Damiani，Jing-Liu-Molev等教授完成。
 
-Twisted $q$-Yangians 是Molev-Ragoucy-Sorba通过类似Olshanski的方法用R-matrix实现构造的A型仿射量子群的余理想子代数。他们对应的对称对（或Satake图）是AI和AII型。更一般的仿射$\imath$量子群，作为仿射量子群的余理想子代数，是由Kolb教授[Adv. Math. 2014]通过Drinfeld-Jimbo实现推广Letzter教授对于有限型量子对称对而引进的。并且Kolb教授证明了AI和AII型仿射$\imath$量子群分别同构于对应的twisted $q$-Yangians并给出Drinfeld-Jimbo实现和R-matrix实现的生成元之间的对应。最近，卢明教授和王伟强教授[Adv. Math. 2021]通过仿射$\imath$量子群的辫子群作用构造了一系列新的生成元从而得到了分裂ADE型仿射$\imath$量子群的Drinfeld实现，推广前面Beck和Damiani的工作。这一工作被张伟南博士推广到了分裂BCFG型。另外，卢明教授，王伟强教授和张伟南博士进一步推广到了拟分裂ADE型。他们的这些工作完成了仿射$\imath$量子群的Drinfeld-Jimbo实现和Drinfeld实现之间详细的同构与联系。但是，仿射$\imath$量子群的R-matrix实现和Drinfeld实现之间的同构仍是缺失的。
+Twisted $q$-Yangians 是Molev-Ragoucy-Sorba通过类似Olshanski教授的方法用R-matrix实现构造的A型仿射量子群的余理想子代数。他们对应的对称对（或Satake图）是AI和AII型。更一般的仿射$\imath$量子群，作为仿射量子群的余理想子代数，是由Kolb教授[Adv. Math. 2014]通过Drinfeld-Jimbo实现推广Letzter教授对于有限型量子对称对而引进的。并且Kolb教授证明了AI和AII型仿射$\imath$量子群分别同构于对应的twisted $q$-Yangians并给出Drinfeld-Jimbo实现和R-matrix实现的生成元之间的对应。最近，卢明教授和王伟强教授[Adv. Math. 2021]通过仿射$\imath$量子群的辫子群作用构造了一系列新的生成元从而得到了分裂ADE型仿射$\imath$量子群的Drinfeld实现，推广前面Beck和Damiani的工作。这一工作被张伟南博士推广到了分裂BCFG型。另外，卢明教授，王伟强教授和张伟南博士进一步推广到了拟分裂ADE型。他们的这些工作完成了仿射$\imath$量子群的Drinfeld-Jimbo实现和Drinfeld实现之间详细的同构与联系。但是，仿射$\imath$量子群的R-matrix实现和Drinfeld实现之间的同构仍是缺失的。
 
-申请人通过结合Ding-Frenkel早期关于A型仿射量子群的工作和最近与王伟强教授和张伟南博士关于twisted Yangians的工作，\textbf{首次给出了仿射$\imath$量子群（AI型）的R-matrix实现和Drinfeld实现的同构并给出了生成元之间的对应}，填补了这一空白。这一工作将为未来构造其他类型仿射$\imath$量子群的R-matrix和Drinfeld实现的同构提供指导意见。该结果发表在《Int.
-Math. Res. Not.》，并得到了审稿人的好评“\textbf{presents crucial and important results}”“I \textbf{strongly recommend} it for publication in IMRN”。
+申请人通过结合Ding-Frenkel早期关于A型仿射量子群的工作和最近与王伟强教授和张伟南博士关于twisted Yangians的工作，\textbf{首次给出了仿射$\imath$量子群（AI型）的R-matrix实现和Drinfeld实现的同构并给出了生成元之间的对应}，填补了这一空白。这一工作将为未来构造其他类型仿射$\imath$量子群的R-matrix和Drinfeld实现的同构提供指导意见。该结果发表在《Int. Math. Res. Not.》，并得到了审稿人的好评“\textbf{presents crucial and important results}”“I \textbf{strongly recommend} it for publication in IMRN”。不同于传统的求解
 
 \medskip
 
@@ -97,9 +102,9 @@ Math. Res. Not.》，并得到了审稿人的好评“\textbf{presents crucial a
 
 超对称是现代理论物理非常重要的一个理论框架，而超代数是描述超对称的数学框架。这里超代数是一个$\mathbb Z_2$-分次代数，可以分解为奇、偶两部分。超Yangians是由ICM45分钟报告人Nazarov教授引入的，关于Yangians的自然推广，它们在表示论和里数学物理非常重要，有着非常广泛的应用。例如，国立中山大学的彭勇宁教授用超Yangians及其子代数Shifted超Yangians来刻画有限W超代数的显式实现；Nazarov教授利用它的量子超行列式来得到线性李超代数的Capelli等式；超Yangians也是描述超XXX自旋链的对称性的主要数学工具。因此，研究超Yangians的代数结构及其表示论是数学物理和表示论的重要问题。
 
-申请人与导师Evgeny Mukhin教授系统地研究了超Yangian $\mathrm{Y}(\mathfrak{gl}_{m|n})$的表示理论。我们的结果包括引入超Yangians的skew表示（取决于skew Young图）及计算它们的$q$-特征，从而进一步证明了skew表示的$q$-特征满足Jacobi-Trudi等式。通过对泛R-matrix特定到这个Jacobi-Trudi等式，我们证明了对应skew Young图的传递矩阵（transfer matrices，数学物理里非常重要的一类哈密顿算子）也满足Jacobi-Trudi等式。这一结果给出了超对称情形的Cherednik-Bazhanov-Reshetikhin （CBR）公式在代数层面的证明。CBR公式在研究超XXX自旋链的传递矩阵的谱问题中被物理学家广泛应用，但是我们的结果\textbf{首次给出了其严格的数学证明}。Molev教授和Ragoucy教授证明了量子Berezinian（超行列式），可以看做是传递矩阵的生成函数。通过使用Jacobi-Trudi等式，我们将量子Berezinian写成了一个$\mathcal D_1\mathcal D_2^{-1}$的形式，其中$\mathcal D_1$和$\mathcal D_2$分别是$m$和$n$阶的类似量子行列式的微分算子。这在超对称情形是一个新的现象。
+申请人与导师Mukhin教授系统地研究了超Yangian $\mathrm{Y}(\mathfrak{gl}_{m|n})$的表示理论。我们的结果包括引入超Yangians的skew表示（取决于skew Young图）及计算它们的$q$-特征，从而进一步证明了skew表示的$q$-特征满足Jacobi-Trudi等式。通过对泛R-matrix特定到这个Jacobi-Trudi等式，我们证明了对应skew Young图的传递矩阵（transfer matrices，数学物理里非常重要的一类哈密顿算子）也满足Jacobi-Trudi等式。这一结果给出了超对称情形的Cherednik-Bazhanov-Reshetikhin （CBR）公式在代数层面的证明。CBR公式在研究超XXX自旋链的传递矩阵的谱问题中被物理学家广泛应用，但是我们的结果\textbf{首次给出了其严格的数学证明}。Molev教授和Ragoucy教授证明了量子Berezinian（超行列式），可以看做是传递矩阵的生成函数。通过使用Jacobi-Trudi等式，我们将量子Berezinian写成了一个$\mathcal D_1\mathcal D_2^{-1}$的形式，其中$\mathcal D_1$和$\mathcal D_2$分别是$m$和$n$阶的类似量子行列式的微分算子。这在超对称情形是一个新的现象。
 
-同时，我们构造了超Yangian $\mathrm{Y}(\mathfrak{gl}_{m|n})$的Drinfeld函子，从而建立了超Yangians的Schur-Weyl对偶。Schur-Weyl对偶表明（超）Yangians的模范畴和退化仿射Hecke代数的模范畴是等价的。此外，Drinfeld函子是正则的，且将退化仿射Hecke代数的单模映到（超）Yangians的零模或单模。这样，我们可以\textbf{将一些在Yangians里的关于不可约性和Grothendieck环里的等式等结果系统地推广到超Yangians情形}。特别地，我们得到了超Yangians的广义T--系统（也叫做差分Hirota方程），这是另一个在数学物理里非常有用的等式。
+同时，我们构造了超Yangian $\mathrm{Y}(\mathfrak{gl}_{m|n})$的Drinfeld函子，从而建立了超Yangians的Schur-Weyl对偶。Schur-Weyl对偶表明（超）Yangians的模范畴和退化仿射Hecke代数的模范畴是等价的。此外，Drinfeld函子是正则的，且将退化仿射Hecke代数的单模映到（超）Yangians的零模或单模。这样，我们可以\textbf{将一些在Yangians里的关于不可约性和Grothendieck环里的等式等结果系统地推广到超Yangians情形}。特别地，我们得到了超Yangians的广义T--系统（差分Hirota方程），这是另一个在数学物理里非常有用的等式。
 
 该结果发表在《Int. Math. Res. Not.》，并得到了审稿人的好评“The main result (Theorem 5.12) is certainly \textbf{interesting and
 beautiful}” “it is also \textbf{novel and not an obvious generalization} of a known
@@ -108,25 +113,31 @@ result for $\mathrm{Y}(\mathfrak{gl}_m)$”。
 
 \medskip
 
-\textbf{\sihao 4、Bethe ansatz的完备性}
+\textbf{\sihao 4、QQ关系式和Bethe向量的特征值}
 
-在研究量子可积系统中，一个非常重要的问题是找到传递矩阵（或Bethe代数，即传递矩阵的系数生成的Yangians的子代数）的特征值与对应的特征向量。
+在研究量子可积系统中，一个非常重要的问题是找到传递矩阵（或Bethe代数，即传递矩阵的系数生成的Yangians的子代数）的特征值与对应的特征向量。量子反散射方法将这个问题推广到了研究量子群的表示论，而传递矩阵可以通过从泛R-matrix特定到表示得到。因此，在现代数学物理中，这些传递矩阵取决于其对应的表示，比如最简单的传递矩阵对应自然表示，它可以写成$\mathrm{tr}\big(\mathrm T(u)\big)$，其中$\mathrm T(u)$是Yangian在RTT实现的生成矩阵。为区分术语，我们把最简单的传递矩阵简称为传递矩阵，而更复杂我们称之为高阶传递矩阵。在理论物理中，有一个非常系统方法来解决传递矩阵的谱问题，叫做Bethe ansatz。Bethe ansatz是由诺贝尔奖得主Hans Bethe在1928年提出来解决Heisenberg链的谱问题的一种方法，而用这一方法来解决Heisenberg链的严格数学证明是由杨振宁与合作者在1966年完成。
+
+Bethe ansatz的方法是假设一个特殊的关于一些变量，叫做Bethe变量，的有理函数向量，然后计算发现当这些变量满足Bethe方程时，此向量正好是传递矩阵的特征向量。因此，如果我们能够找到Bethe方程的解，那么我们就能得到一个特征向量。Bethe方程是一系列的有分母的代数方程，因此求解这些方程并不平凡，另外求解Bethe方程可能遗漏特殊的奇异解。不同于直接求解Bethe方程，我们引入一些新的关于$u$的多项式$\bm Q(u)=(Q_i(u))$，这些多项式的根正好是某些Bethe变量。这里分配Bethe变量到多项式的规则取决于对应李代数的根系。申请人和导师Mukhin教授的关于超XXX自旋链一个重要的结果是，在非退化情形，求解Bethe方程等价于求解一系列关于$\bm Q(u)$的Wronskian方程。
 
 \medskip
 
-\textbf{\sihao 5、QQ关系式和Bethe向量的特征值}
+\textbf{\sihao 5、Bethe ansatz的完备性}
 
 这一工作发表在《J. High Energy Phys.》。
 
-{\color{MsBlue} \subsection{\sihao \kaishu \quad \ 
+{\color{MsBlue} \subsection{\sihao \kaishu \qquad \ 
 \textbf{（二）全职回国（来华）后拟开展的研究工作} {\normalfont（建议不超过4000字）} 
 \bfseries \xiaosihao \fontspec{Times New Roman} 
 The research work to 
-be carried out after returning/coming to China full-time(no more than 4000 words)} 
+be carried out after returning/coming to China full-time (no more than 4000 words)} 
 }
+
+ 
 
 {\sihao \color{MsBlue} \kaishu 主要阐述全职回国（来华）后主要研究方向和思路、
 预期目标、团队和科研条件的支撑情况。}
+
+\medskip
 
 {\color{MsBlue} \fontspec{Times New Roman} 
 In this part, you shall mainly expound the main research direction and ideas, 
@@ -149,69 +160,99 @@ full-time.}
 
 \medskip
 
-\textbf{\sihao 2、Shifted twisted Yangian和仿射Grassmannian切片}
+\textbf{\sihao 2、Shifted twisted Yangians和仿射Grassmannian切片}
 
 \medskip
 
-\textbf{\sihao 3、有边界的可积系统}
+\textbf{\sihao 3、Twisted Yangians的极小实现}
+
+\medskip
+
+\textbf{\sihao 4、有边界的可积系统}
 
 \textbf{主要思路}：
 
 
-{\color{MsBlue} \subsection{\sihao \kaishu \quad \ \bfseries（三）其他需要说明的情况 
+\medskip
+
+\textbf{\sihao 预期目标}
+
+学术研究方面，申请人希望回国后能完成上面几个拟研究课题，特别是关于有限W代数和仿射Grassmannian切片的部分。论文发表方面，申请人希望能在国际一流期刊上发表多篇论文。团队组建方面，申请人希望能培养1--2明博士后和若干名博士生，声请人希望能多组织一些学生讨论版以及开设相关的表示论与数学物理课程，培养一些学生对表示论及其应用的兴趣。同时，我希望能与国内的同事多交流讨论合作，尽可能的开展新的合作研究方向。学术交流方面，申请人也会与同事们积极组织学术研讨班和国内/国际学术会议，邀请专家们来讲述他们最新的研究进展，开拓我们的视野。申请人也会与国际专家Varchenko教授，王伟强教授，Mukhin教授等人继续开展学术交流活动。
+
+\medskip
+
+\textbf{\sihao 团队和科研 条件的支撑情况}
+
+南方科技大学及深圳国际数学中心有非常不错的表示论和数学物理研究团队，有国际知名的专家和年轻学者。其中，Zelmanov教授是菲尔茨奖得主，国际数学家大会一小时报告人，国际知名表示论专家；Futorny教授是巴西科学院院士，国际数学家大会45分钟报告人，国际知名表示论专家；向子卿副教授是代数组合与表示论的专家；冯致程助理教授是李群及其表示论专家；邬龙挺助理教授是代数几何和数学物理的专家。他们的研究内容都与我的研究课题紧密相连或者间接相关。我相信我的加入能更深化团队合作，壮大研究队伍。南方科技大学将提供给我非常不错的研究条件和支持。
+
+\bigskip
+
+{\color{MsBlue} \subsection{\sihao \kaishu \qquad \ \bfseries（三）其他需要说明的情况 
 \xiaosihao \fontspec{Times New Roman} Other issues need to be addressed.}}
 %
 
-{\sihao \color{MsBlue} \kaishu 1.申请人同年申请不同类型的国家自然科学基金项目情况（
-列明同年申请的其他项目的项目类型、项目名称信息，并说明与本项目之间的区别与联系）。}
+\bigskip
+
+{\sihao \color{MsBlue} \kaishu 1.申请人同年申请不同类型的国家自然科学基金项目情况（列明同年申请的其他项目的项目类型、项目名称信息，并说明与本项目之间的区别与联系；已收到自然科学基金委不予受理或不予资助决定的，无需列出）。}
+
+\bigskip
 
 {\color{MsBlue} \xiaosihao \fontspec{Times New Roman} 
-The applications of the applicant for different types of NSFC programs in the 
-ame year (please list the types of programs and title of proposals submitted 
-in the same year, and explain the difference and connection with this proposal).}
+Proposals that the applicant has submitted for different types of NSFC programs in the same year (please list the types of programs and title of proposals submitted in the same year, and explain the differences and connections with this proposal;Proposals deemed ineligible or unfundable by the NSFC can be excluded).}
+
+\bigskip
 
 无。
 
-{\sihao \color{MsBlue} \kaishu 2.申请人是否存在同年申请或者参与申请国家自然科
-学基金项目的单位不一致的情况（如存在上述情况，列明所涉及人员的姓名，申请或参与申请的其他
-项目的项目类型、项目名称、单位名称、上述人员在该项目中是申请人还是参与者，并说明单位不一
-致原因）。}
+\bigskip
+
+{\sihao \color{MsBlue} \kaishu 2.申请人是否存在同年申请或者参与申请国家自然科学基金项目的单位不一致的情况（如存在上述情况，列明所涉及人员的姓名，申请或参与申请的其他项目的项目类型、项目名称、单位名称、上述人员在该项目中是申请人还是参与者，并说明单位不一致原因）。}
+
+\bigskip
 
 {\color{MsBlue} \xiaosihao \fontspec{Times New Roman} 
-Whether the applicant's host institution is inconsistent with the one indicated 
-in other proposals that he or she submits or participates in applying in the 
-same year (if there is any such inconsistency, please list the names of the 
-personnel involved, the types of programs, titles of proposals, names of host 
-institutions for other projects that you applied or participated in, whether 
-the abovementioned personnel are the applicants or participants in the projects, 
-and explain the reasons for the inconsistency).}
+Whether the applicant's host institution is inconsistent with the one indicated in other proposals that he or she submits or participates in applying in the same year (if there is any such inconsistency, please list the names of the personnel involved, the types of programs, titles of proposals, names of host institutions for other projects that you applied or participated in, whether the abovementioned personnel are the applicants or participants in the projects, and explain the reasons for the inconsistency).}
+
+\bigskip
 
 无。
 
-{\sihao \color{MsBlue} \kaishu 3.申请人是否存在与正在承担的国家自然科学基金项目的单位
-不一致的情况（如存在上述情况，列明所涉及人员的姓名，正在承担项目的批准号、项目类型、
-项目名称、单位名称、起止年月，并说明单位不一致原因）。}
+\bigskip
+
+{\sihao \color{MsBlue} \kaishu 3.申请人是否存在与正在承担的国家自然科学基金项目的单位不一致的情况（如存在上述情况，列明所涉及人员的姓名，正在承担项目的批准号、项目类型、项目名称、单位名称、起止年月，并说明单位不一致原因）。}
+
+\bigskip
 
 {\color{MsBlue} \xiaosihao \fontspec{Times New Roman} 
-Whether the applicant's host institution is inconsistent with the one indicated 
-in the NSFC project that he/she is undertaking (if there is any such inconsistency, please list the name of the personnel involved, approval number, type of pro
-gram, title of proposal, name of host institution, start and end dates of the un
-dertaking project, and explain the reasons for the inconsistency).}
+Whether the applicant's host institution is inconsistent with the one indicated in the NSFC project that he/she is undertaking (if there is any such inconsistency, please list the name of the personnel involved, approval number, type of program, title of proposal, name of host institution, start and end dates of the undertaking project, and explain the reasons for the inconsistency).}
+
+\bigskip
 
 无。
+
+\bigskip
 
 {\sihao \color{MsBlue} \kaishu 4.申请人教育或工作经历若不连续请说明原因。}
 
+\bigskip
+
 {\color{MsBlue} \xiaosihao \fontspec{Times New Roman} 
-If there is any discontinuity in education or work experience, please explain 
-the reason.}
+If there is any discontinuity in education or work experience, please explain the reason.}
 
-{\sihao \color{MsBlue} \kaishu 5. 其他。 
-\xiaosihao \fontspec{Times New Roman} Others.}
+{\sihao \color{MsBlue} \kaishu 5. 同年以不同专业技术职务（职称）申请或参与申请科学基金项目的情况（应详细说明原因）。 
 
+\bigskip
+
+\xiaosihao \fontspec{Times New Roman} Situation where the applicant applies for NSFC programs as PI or participant using different professional or academic titles in the same year (Please elaborate on the reasons).}
+
+\bigskip
 
 无。
 
+\bigskip
+
+{\sihao \color{MsBlue} \kaishu 6. 其他。 
+\xiaosihao \fontspec{Times New Roman} Others.}
 
 \end{document}
 
