@@ -83,7 +83,7 @@ Yangians和仿射量子群的Drinfeld（新）实现是由Drinfeld在1988年引�
 
 Twisted Yangians的Drinfeld实现将提供一系列的应用，比如研究Twisted Yangians表示论的$q$-特征理论，引进shifted twisted Yangians并研究其与几何中Slodowy切片、有限W代数、仿射Grassmannian切片的联系。比如Topley教授和其学生Tappeiner 最近利用我们的 twisted Yangians 的 Drinfeld实现研究典型李代数的Slodowy切片，从而 极大地推广了Topley教授在2023年发表在《Invent. Math.》的结果。
 
-我们其中一份工作（arXiv:2406.05067）已被《Comm. Math. Phys.》接受，得到了两位审稿人的高度评价：``\textbf{addresses an important problem} in the representation theory of affine
+我们其中一份工作（arXiv:2406.05067）发表在《Comm. Math. Phys.》，得到了两位审稿人的高度评价：``\textbf{addresses an important problem} in the representation theory of affine
 quantum symmetric pairs that will help \textbf{bring the theories of twisted Yangians and affine ıquantum groups to a level playing field}"，``\textbf{was an important open problem for many years} which has been \textbf{resolved in the present paper in many cases}"。
 
 \medskip
@@ -115,7 +115,7 @@ result for $\mathrm{Y}(\mathfrak{gl}_m)$”。
 
 \textbf{\sihao 4、QQ关系式和Bethe向量的特征值}
 
-在研究量子可积系统中，一个非常重要的问题是找到传递矩阵（或Bethe代数，即传递矩阵的系数生成的Yangians的子代数）作用在一个量子群的（通常为有限维不可约）表示的特征值与对应的特征向量。量子反散射方法将这个问题推广到了研究量子群的表示论，而传递矩阵可以通过从泛R-matrix特定到表示得到。因此，在现代数学物理中，这些传递矩阵取决于其对应的表示，比如最简单的传递矩阵对应自然表示，它可以写成$\mathrm{tr}\big(\mathrm T(u)\big)$，其中$\mathrm T(u)$是Yangian在RTT实现的生成矩阵。为区分术语，我们把最简单的传递矩阵简称为标准传递矩阵，而将更复杂的称之为高阶传递矩阵。在理论物理中，有一个非常系统方法来解决传递矩阵的谱问题，叫做Bethe ansatz。Bethe ansatz是由诺贝尔奖得主Hans Bethe在1928年提出来解决Heisenberg链的谱问题的一种方法，而用这一方法来解决Heisenberg链的严格数学证明是由杨振宁与合作者在1966年完成。
+在研究量子可积系统中，一个非常重要的问题是找到传递矩阵（或Bethe代数，即传递矩阵的系数生成的Yangians的子代数）作用在一个量子群的（通常为有限维不可约）表示的特征值与对应的特征向量。量子反散射方法将这个问题推广到了研究量子群的表示论，而传递矩阵可以通过从泛R-matrix特定到表示得到。因此，在现代数学物理中，这些传递矩阵取决于其对应的表示，比如最简单的传递矩阵对应自然表示，它可以写成$\mathrm{tr}\big(\mathrm T(u)\big)$，其中$\mathrm T(u)$是Yangian在RTT实现的生成矩阵。为区分术语，我们把最简单的传递矩阵简称为标准传递矩阵，而将更复杂的称之为高阶传递矩阵。在理论物理中，有一个非常系统方法来解决传递矩阵的谱问题，叫做Bethe ansatz。Bethe ansatz是由诺贝尔奖得主Hans Bethe在1931年提出来解决Heisenberg链的谱问题的一种方法，而用这一方法来解决Heisenberg链的严格数学证明是由杨振宁与合作者在1966年完成。
 
 Bethe ansatz的方法是假设一个特殊的关于一些变量（Bethe变量）的有理函数向量，然后计算发现当这些变量满足Bethe方程时，此向量正好是标准传递矩阵的特征向量。因此，如果我们能够找到Bethe方程的解，那么我们就能得到一个特征向量。Bethe方程是一系列的有分母的代数方程，因此求解这些方程并不平凡，另外求解Bethe方程可能遗漏特殊的奇异解。不同于直接求解Bethe方程，我们引入一些新的关于$u$的多项式，这些多项式的根正好是某些Bethe变量。这里分配Bethe变量到多项式的规则取决于对应李代数的根系。申请人和导师Mukhin教授对超XXX自旋链及其Bethe解进了了系统地研究。我们发现，在非退化情形，求解Bethe方程等价于求解一系列关于这些多项式的Wronskian方程。在非超对称情形，这些Wronskian方程通常被称为QQ系统，其中的Q对应Baxter的Q算子，满足著名的Baxter的TQ关系。当Bethe方程满足时，这些多项式代表Q算子在对应的Bethe向量的特征值。通过QQ系统，我们引入了Bethe方程的reproduction procedure（数学物理中的B\"{a}cklund 变换）。这个reproduction procedure与Weyl群密切相关，并且能将一个Bethe解变成另一个Bethe解。给定一个Bethe解，我们引进了一个有理差分算子和population。这里population是所有从这个给定的Bethe解通过不断重复reproduction procedure得到的Bethe解的集合。我们证明了population作为一个簇同构于超旗簇，并且同一个population里的不同Bethe解对应同一个有理查分算子的不同的完全线性分解。因此可以认为是\textbf{超XXX自旋链的一种几何Langlands对应}。我们的结果\textbf{给出了QQ系统和B\"{a}cklund 变换的严格的数学定义}并推广了 E. Frenkel教授和Mukhin-Varchenko教授的结果到超对称情形。这一结果发表在《J. Phys. A: Math. Theor.》。
 
@@ -128,7 +128,7 @@ Bethe ansatz的方法是假设一个特殊的关于一些变量（Bethe变量）
 
 \textbf{\sihao 5、Bethe ansatz的完备性}
 
-利用Bethe ansatz解决传递矩阵的谱问题时，一个很关键的问题叫做Bethe ansatz的完备性：通过Bethe ansatz能不能找到传递矩阵在这个量子群表示里的一组特征基。通过前面的讨论，我们知道退化情形的Bethe解是无法用传统的Bethe ansatz来求解，而通过QQ系统
+利用Bethe ansatz解决传递矩阵的谱问题时，一个很关键的问题叫做Bethe ansatz的完备性：通过Bethe ansatz能不能找到传递矩阵在这个量子群表示里的一组特征基。通过前面的讨论，我们知道退化情形的Bethe解是无法用传统的Bethe ansatz来求解，而通过QQ系统是多项式方程从而可以解决这一问题。
 
 这一工作发表在《Comm. Math. Phys.》。
 
