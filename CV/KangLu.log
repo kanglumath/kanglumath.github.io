@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.19)  5 FEB 2025 10:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.19)  4 APR 2025 10:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -594,28 +594,28 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
  [3] [4] [5]
-Underfull \hbox (badness 1163) in paragraph at lines 352--352
+Underfull \hbox (badness 1163) in paragraph at lines 353--353
 [][][]\T1/lmr/bx/n/10.95 (+20) Jonathan Brun-dan[][]\T1/lmr/m/n/10.95 (+20) , \
 T1/lmr/m/sl/10.95 (+20) Uni-ver-sity of Ore-gon\T1/lmr/m/n/10.95 (+20) , De-par
 t-ment of Math-e-mat-ics,
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 356--356
+Underfull \hbox (badness 3078) in paragraph at lines 357--357
 [][][]\T1/lmr/bx/n/10.95 (+20) Andrew Lin-shaw[][]\T1/lmr/m/n/10.95 (+20) , \T1
 /lmr/m/sl/10.95 (+20) Uni-ver-sity of Den-ver\T1/lmr/m/n/10.95 (+20) , De-part-
 ment of Math-e-mat-ics,
  []
 
-
-Underfull \hbox (badness 3396) in paragraph at lines 362--362
+[6]
+Underfull \hbox (badness 3396) in paragraph at lines 363--363
 [][][]\T1/lmr/bx/n/10.95 (+20) Weiqiang Wang[][]\T1/lmr/m/n/10.95 (+20) , \T1/l
 mr/m/sl/10.95 (+20) Uni-ver-sity of Vir-ginia\T1/lmr/m/n/10.95 (+20) , De-part-
 ment of Math-e-mat-ics,
  []
 
-[6]
-Underfull \hbox (badness 6047) in paragraph at lines 364--364
+
+Underfull \hbox (badness 6047) in paragraph at lines 365--365
 [][][]\T1/lmr/bx/n/10.95 (+20) Ben Web-ster[][]\T1/lmr/m/n/10.95 (+20) , \T1/lm
 r/m/sl/10.95 (+20) Uni-ver-sity of Wa-ter-loo\T1/lmr/m/n/10.95 (+20) , De-part-
 ment of Math-e-mat-ics,
@@ -653,7 +653,7 @@ ype1/public/lm/lmro10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publi
 c/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on KangLu.pdf (7 pages, 333851 bytes).
+Output written on KangLu.pdf (7 pages, 334001 bytes).
 PDF statistics:
  256 PDF objects out of 1000 (max. 8388607)
  206 compressed objects within 3 object streams
