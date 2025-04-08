@@ -81,9 +81,9 @@ Yangians和仿射量子群的Drinfeld（新）实现是由Drinfeld在1988年引�
 
 %申请人与王伟强教授，张伟楠博士（arXiv:2308.12254）通过R-matrix实现做高斯分解的方法\textbf{得到了分裂型A型（即AI型）twisted Yangians的Drinfeld实现}。在后续的工作中（arXiv:2406.05067，arXiv:2408.06981），申请者与合作者对仿射$\imath$量子群的Drinfeld实现做退化，从而\textbf{得到了所有分裂型和拟分裂ADE型twisted Yangians的Drinfeld实现}。我们的创新点在于这两种方法独立却又互补。一方面高斯分解帮助我们确定如何在仿射$\imath$量子群那边选取合适的参数做退化。另一方面通过退化仿射$\imath$量子群的Serre关系式，我们得到twisted Yangians的Serre关系式，而这个Serre关系式单独从高斯分解是很难得出一个简单而又优美的公式。
 
-申请人与王伟强教授，张伟楠博士对仿射$\imath$量子群的Drinfeld实现做退化，从而\textbf{得到了所有分裂型和拟分裂ADE型twisted Yangians的Drinfeld实现}。我们的创新点在于做退化的方法和我们在预印本的另一种高斯分解法独立却又互补。一方面高斯分解帮助我们确定如何在仿射$\imath$量子群那边选取合适的参数做退化。另一方面通过退化仿射$\imath$量子群的Serre关系式，我们得到twisted Yangians的Serre关系式，而这个Serre关系式单独从高斯分解是很难得出一个简单而又优美的公式。这一工作发表在《Comm. Math. Phys.》。{\color{red}加一点张的工作退化twisted super Yangians}
+申请人与王伟强教授，张伟楠博士对仿射$\imath$量子群的Drinfeld实现做退化，从而\textbf{得到了所有分裂型和拟分裂ADE型twisted Yangians的Drinfeld实现}。我们的创新点在于做退化的方法和我们在预印本的另一种高斯分解法独立却又互补。一方面高斯分解帮助我们确定如何在仿射$\imath$量子群那边选取合适的参数做退化。另一方面通过退化仿射$\imath$量子群的Serre关系式，我们得到twisted Yangians的Serre关系式，而这个Serre关系式单独从高斯分解是很难得出一个简单而又优美的公式。另外，我们通过对生成函数形式的关系式做退化而不是生成元，从而得出了更为复杂的BCF型Serre关系式。在证明仿射$\imath$量子群的退化同构于twisted Yangians的过程中，我们还证明了twisted Yangians的PBW定理。这进一步说明了twisted Yangians是twisted流李代数的泛包络代数的平坦形变，保证了我们引进的twisted Yangians是合理的。这一工作发表在《Comm. Math. Phys.》。
 
-Twisted Yangians的Drinfeld实现将提供一系列的应用，比如研究twisted Yangians表示论的$q$-特征理论，引进shifted twisted Yangians并研究其与几何中Slodowy切片、有限W代数、仿射Grassmannian切片的联系。比如，Topley教授和其学生Tappeiner 最近利用我们的 twisted Yangians 的 Drinfeld实现研究典型李代数的Slodowy切片，从而 极大地推广了Topley教授在2023年发表在《Invent. Math.》的结果。
+Twisted Yangians的Drinfeld实现将提供一系列的应用，比如研究twisted Yangians表示论的$q$-特征理论，引进shifted twisted Yangians并研究其与几何中Slodowy切片、有限W代数、仿射Grassmannian切片的联系。比如，Topley教授和其学生Tappeiner（arXiv：2406.05492） 最近利用我们的 twisted Yangians 的 Drinfeld实现研究典型李代数的Slodowy切片，从而 极大地推广了Topley教授在2023年发表在《Invent. Math.》的结果。
 
 
 
@@ -119,7 +119,7 @@ Twisted $q$-Yangians 是Molev-Ragoucy-Sorba通过类似Olshanski教授的方法�
 
 在研究量子可积系统中，一个非常重要的问题是找到一系列可交换的传递矩阵$\mathcal T_W(u)$（或Bethe代数，即这些传递矩阵的系数生成的Yangians的交换子代数）作用在一个量子群的（通常为有限维不可约）表示$V$的特征值与对应的特征向量。这里$W$是量子群的一个有限维表示，而传递矩阵$\mathcal T_W(u)$可以通过从泛R-matrix特定到表示$W$再取迹得到。这个将数学物理的自旋链推广到了研究量子群的表示论的方法叫做量子反散射方法。最简单的传递矩阵对应自然表示，它可以写成$\mathrm{tr}\big(\mathrm T(u)\big)$，其中$\mathrm T(u)$是Yangian在RTT实现的生成矩阵。为区分术语，我们把最简单的传递矩阵简称为标准传递矩阵，而将更复杂的称之为高阶传递矩阵。在理论物理中，有一个非常系统方法来解决传递矩阵的谱问题，叫做Bethe ansatz。Bethe ansatz是由诺贝尔奖得主Hans Bethe在1931年提出来解决Heisenberg链的谱问题的一种方法，而用这一方法来解决Heisenberg链的严格数学证明是由杨振宁与合作者在1966年完成。
 
-Bethe ansatz的方法是假设一个特殊的关于一些变量（Bethe变量）的有理函数向量，然后计算发现当这些变量满足Bethe方程时，此向量正好是标准传递矩阵的特征向量。因此，如果我们能够找到Bethe方程的解，那么我们就能得到一个特征向量。Bethe方程是一系列的有分母的代数方程，因此求解这些方程并不平凡，另外求解Bethe方程可能遗漏特殊的奇异解。不同于直接求解Bethe方程，我们引入一些新的关于$u$的多项式，这些多项式的根正好是某些Bethe变量。这里分配Bethe变量到多项式的规则取决于对应李代数的根系。申请人和导师Mukhin教授对超XXX自旋链及其Bethe解进了了系统地研究。我们发现，在非退化情形，求解Bethe方程等价于求解一系列关于这些多项式的Wronskian方程。在非超对称情形，这些Wronskian方程通常被称为QQ系统，其中的Q对应Baxter的Q算子，满足著名的Baxter的TQ关系。当Bethe方程满足时，这些多项式代表Q算子在对应的Bethe向量的特征值。通过QQ系统，我们引入了Bethe方程的reproduction procedure（数学物理中的B\"{a}cklund 变换）。这个reproduction procedure与Weyl群密切相关，并且能将一个Bethe解变成另一个Bethe解。给定一个Bethe解，我们引进了一个有理差分算子和population。这里population是所有从这个给定的Bethe解通过不断重复reproduction procedure得到的Bethe解的集合。我们证明了population作为一个簇同构于超旗簇，并且同一个population里的不同Bethe解对应同一个有理查分算子的不同的完全线性分解。因此可以认为是\textbf{超XXX自旋链的一种几何Langlands对应}。我们的结果\textbf{给出了QQ系统和B\"{a}cklund 变换的严格的数学定义}并推广了 E. Frenkel教授和Mukhin-Varchenko教授的结果到超对称情形。这一结果发表在《J. Phys. A: Math. Theor.》。
+Bethe ansatz的方法是假设一个特殊的关于一些变量（Bethe变量）的有理函数向量，然后计算发现当这些变量满足Bethe方程时，此向量正好是标准传递矩阵的特征向量。因此，如果我们能够找到Bethe方程的解，那么我们就能得到一个特征向量。Bethe方程是一系列的有分母的代数方程，因此求解这些方程并不平凡，另外求解Bethe方程可能遗漏特殊的奇异解。不同于直接求解Bethe方程，我们引入一些新的关于$u$的多项式，这些多项式的根正好是某些Bethe变量。这里分配Bethe变量到多项式的规则取决于对应李代数的根系。申请人和导师Mukhin教授对超XXX自旋链及其Bethe解进了了系统地研究。我们发现，在非退化情形，求解Bethe方程等价于求解一系列关于这些多项式的Wronskian方程。在非超对称情形，这些Wronskian方程通常被称为QQ系统，其中的Q对应Baxter的Q算子，满足著名的Baxter的TQ关系。当Bethe方程满足时，这些多项式代表Q算子在对应的Bethe向量的特征值。通过QQ系统，我们引入了Bethe方程的reproduction procedure（数学物理中的B\"{a}cklund 变换）。这个reproduction procedure与Weyl群密切相关，并且能将一个Bethe解变成另一个Bethe解。给定一个Bethe解，我们引进了一个有理差分算子和population。这里population是所有从这个给定的Bethe解通过不断重复reproduction procedure得到的Bethe解的集合。我们证明了population作为一个簇同构于超旗簇，并且同一个population里的不同Bethe解对应同一个有理查分算子的不同的完全线性分解。因此可以认为是\textbf{超XXX自旋链的一种几何Langlands对应}。我们的结果\textbf{给出了QQ系统和B\"{a}cklund 变换的严格的数学定义}并推广了 E. Frenkel教授和Mukhin-Varchenko教授的结果到超对称情形。这一结果发表在《J. Phys. A: Math. Theor.》。我们进一步将类似结果推广到了正交辛李超代数（包括BCD型）的Gaudin模型，对应的有理差分算子变成了伪微分算子。特别地，我们的结果给出了D型非超对称的结果，。这一工作发表在《Ann. Henri Poincaré 》。
 
 我们猜想上述引进的有理差分算子在展开成差分算子的级数之后，其系数是（包括高阶）传递矩阵作用在此Bethe向量的特征值。相比在Mukhin-Tarasov-Varchenko的非超对称的结果，主要的不同在于此级数是无限的，因此更为复杂。申请人另辟蹊径，巧妙地将问题转化为类似于非超对称的情形，从而证明了这一猜想。申请人进一步通过取超Yangian的相伴分次代数，证明了在超Gaudin模型（XXX自旋链的退化情形）中类似的猜想。这一结果发表在《J. High Energy Phys.》。
 
@@ -128,9 +128,10 @@ Bethe ansatz的方法是假设一个特殊的关于一些变量（Bethe变量）
 
 \medskip
 
-\textbf{\sihao 5、Bethe ansatz的完备性与其几何应用}
+\textbf{\sihao 5、Bethe代数与其几何应用}
 
-Bethe 代数是由所有传递矩阵的系数生成的Yangian的交换子代数。这是一个有可数个代数独立的生成元的交换代数。利用Bethe ansatz解决Bethe 代数的谱问题时，一个很关键的问题叫做Bethe ansatz的完备性：通过Bethe ansatz能不能找到所有Bethe 代数在这个量子群表示$V$里的一组（公共）特征基。通过前面的讨论，我们知道退化情形的Bethe解是无法用传统的Bethe ansatz来求解，而通过QQ系统是多项式方程从而可以解决这一问题。
+量子可积系统的Bethe 代数是一个由一系列作用在该系统的相空间的可交换的线性算子生成的可交换代数。比方说在XXX自旋链情形，Bethe代数是由所有传递矩阵的系数生成的Yangian的交换子代数。这是一个有可数个代数独立的生成元的交换代数。而Gaudin模型，作为XXX自旋链的退化情形，其Bethe代数是$\mathrm{U}(\mathfrak{g}[z])$的一个可交换子代数。通常我们考虑Bethe代数在相空间的上的线性算子代数里的像。在前面，我们讨论了在可积系统里，一个核心问题（Bethe代数的谱问题）是找到Bethe代数的公共特征值和公共特征向量。因此，如果我们能准确地描述Bethe代数对解决这一问题非常重要。特别地，一个非常有意思的问题是将Bethe代数表示为一个合适的概型上的函数代数。这样的表示可以认为是几何Langlands对应的一个例子。
+%利用Bethe ansatz解决Bethe 代数的谱问题时，一个很关键的问题叫做Bethe ansatz的完备性：通过Bethe ansatz能不能找到所有Bethe 代数在这个量子群表示$V$里的一组（公共）特征基。通过前面的讨论，我们知道退化情形的Bethe解是无法用传统的Bethe ansatz来求解，而通过QQ系统是多项式方程从而可以解决这一问题。
 
 Bethe代数的谱问题和几何中的Schubert分析息息相关。事实上在研究A型Gaudin模型中，Mukhin-Tarsov-Varchenko发现当Bethe代数作用在$\mathfrak{gl}_N[z]$的赋值模的张量积的重数空间（multiplicity space ）时，它对应的概型同构于一些Grassmannian里Schubert簇（取决于对应的赋值模）的交集，并且Bethe代数的作用同构于其余正则表示。从而解决了Bethe代数的谱问题，并得出Bethe代数在赋值参数全为实数的时候是可同时对角化并具有单谱（特征值无重根）。利于它们与Schubert簇的关系，Mukhin-Tarsov-Varchenko证明了Shapiro-Shapiro猜想和对应Schubert簇交集的横截性[Ann. Math. 09, JAMS 09]。进一步利用Gaudin模型和Grassmannian的关系，Mukhin-Tarasov给出了Grassmannian里Schubert分析里实解的个数的下界[Acta Math. 14]。\textbf{基于Gaudin模型在Grassmannian的Schubert分析的重要性，很自然的问题是研究其他型的Gaudin模型的谱问题及其在代数几何的应用}。Feigin-Frenkel-Rybnikov和Rybnikov证明了当Bethe代数作用在重数空间上，存在一个循环向量，从而保证当Bethe代数可对角化时其谱必须是单的。申请人在他们的工作上进一步证明了，Bethe代数作用重数空间上，是一个Frobenius代数，并且该作用同时同构于Bethe代数的像的正则表示和余正则表示。这些性质被申请人总结为可积系统的\textbf{完美可积性}。作为推论，我们得到Bethe代数的每个公共特征值只有一个约当块，即\textbf{Bethe代数的公共特征空间总是一维的}。注意在多个可交换算子作用下，循环作用并不能保证公共特征空间总是一维的。另外，在ABC型Gaudin模型，申请人与Mukin和Varchenko教授发现其对应Bethe向量与Grassmannian里的对偶空间有一一对应。我们进一步引进了Grassmannian的基于A型李代数的表示论的一个新分层。在BC型时，我们引进了Grassmannian的一个新子簇，对偶Grassmannian，并给出其相应BC型李代数表示论的分层。这些工作发表在了《SIGMA》和《 Pure Appl. Math. Q》（该卷为纪念国际著名数学家Manin教授80岁生日）上。
 
@@ -192,9 +193,9 @@ A型Shifted Yangians（其shift对应支配权）最先是由Brundan-Kleshchev�
 
 \medskip
 
-\textbf{\sihao 4、有边界的可积系统}
+\textbf{\sihao 4、有边界的Gaudin模型}
 
-
+Yangians起源于量子可积系统
 
 %\textbf{主要思路}：
 
@@ -202,13 +203,18 @@ A型Shifted Yangians（其shift对应支配权）最先是由Brundan-Kleshchev�
 
 \textbf{\sihao 5、XXX自旋链的Bethe代数谱问题}
 
+相比Gaudin模型，关于XXX自旋链的Bethe代数谱问题的非常少。其主要原因在于，XXX自旋链的代数使用Yangians来描述的，它们的表示论要比Kac-Moody李代数的表示论复杂得多。在当对应相空间为一些赋值自然表示的不可约张量积时，Mukhin-Tarasov-Varchenko证明了Bethe代数作用在上面有一个循环向量，且Bethe代数的像是一个Frobenius代数，从而解决这种特殊情形时的Bethe代数谱问题。在后续工作中，Gorbounov-Rimányi-Tarasov-Varchenko（GRTV）证明了此Bethe代数同构于偏旗簇的余切丛的等变上同调代数。
+
+另一方面，麻省理工的Maulik教授和菲尔茨奖得主Okounkov教授描述了A型Yangian在A型Nakajima簇的局部化的等变上同调环，其中Bethe代数的一些元素的在其上的作用对应与某些上同调类的量子乘积。因此他们猜想，其对应的量子上同调环应对应Bethe代数作用在一些赋值基本（对应Young图为一列）表示的不可约张量积时。在这些表示都是自然表示时，GRTV利用Bethe代数的具体描述从而验证了这一猜想。
+
+申请人打算与Mukhin教授、Tarasov教授将XXX自旋链的Bethe代数作用在赋值基本表示的不可约张量积的谱问题。我们打算（1）证明Bethe代数在其上的作用是循环的并且Bethe代数是Frobenius代数，（2）从而进一步给出Bethe代数用生成元和关系式的实现。我们的思路分为两部分，第一部分是应用Yangians的表示论，特别是应用R-matrix的fusion积；第二部分我们将使用QQ系统，考虑其对应的差分算子的解空间的特性，这个解空间是由多项式组成，并且在赋值参数处有特殊的性质。更具体地，m此时的Bethe代数应对应某个离散Wronski映射的纤维上的函数代数。
 %\textbf{主要思路}：
 
 \medskip
 
 \textbf{\sihao 预期目标}
 
-学术研究方面，申请人希望回国后能完成上面几个拟研究课题，特别是关于有限W代数和仿射Grassmannian切片的部分。论文发表方面，申请人希望能在国际一流期刊上发表多篇论文。团队组建方面，申请人希望能培养1--2名博士后和若干名博士生，声请人希望能多组织一些学生讨论版以及开设相关的表示论与数学物理课程，培养一些学生对表示论及其应用的兴趣。同时，我希望能与国内的同事多交流讨论合作，尽可能的开展新的合作研究方向。学术交流方面，申请人也会与同事们积极组织学术研讨班和国内/国际学术会议，邀请专家们来讲述他们最新的研究进展，开拓我们的视野。申请人也会与国际专家Varchenko教授，王伟强教授，Mukhin教授等人继续开展学术交流活动。
+学术研究方面，申请人希望回国后能完成上面几个拟研究课题，特别是关于有限W代数和仿射Grassmannian切片的部分。论文发表方面，申请人希望能在国际一流期刊上发表多篇论文。团队组建方面，申请人希望能培养1--2名博士后和若干名博士生，声请人希望能多组织一些学生讨论班以及开设相关的表示论与数学物理课程，培养一些学生对表示论及其应用的兴趣。同时，我希望能与国内的同事多交流讨论合作，尽可能的开展新的合作研究方向。学术交流方面，申请人也会与同事们积极组织学术研讨班和国内/国际学术会议，邀请专家们来讲述他们最新的研究进展，开拓我们的视野。申请人也会与国际专家Varchenko教授，王伟强教授，Mukhin教授等人继续开展学术交流活动。
 
 \medskip
 
