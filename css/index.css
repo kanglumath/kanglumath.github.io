@@ -1325,12 +1325,12 @@ canvas:not(#ribbon-canvas),
 :root {
   --global-font-size: 14px;
   --global-bg: #fff;
-  --font-color: #4c4948;
+  --font-color: #000;
   --hr-border: #d2ebfd;
   --hr-before-color: #bfe4fb;
   --search-bg: #f6f8fa;
-  --search-input-color: #4c4948;
-  --search-a-color: #4c4948;
+  --search-input-color: #000;
+  --search-a-color: #000;
   --preloader-bg: #37474f;
   --preloader-color: #fff;
   --tab-border-color: #f0f0f0;
@@ -4553,7 +4553,7 @@ mjx-assistive-mml {
   bottom: 0;
 }
 .aplayer {
-  color: #4c4948;
+  color: #000;
 }
 .container .aplayer {
   margin: 0 0 20px;
@@ -5434,13 +5434,13 @@ blockquote.pullquote.right {
 .note.modern {
   border: 1px solid transparent !important;
   background-color: #f5f5f5;
-  color: #4c4948;
+  color: #000;
 }
 .note.flat {
   border: initial;
   border-left: 5px solid #eee;
   background-color: #f9f9f9;
-  color: #4c4948;
+  color: #000;
 }
 .note h2,
 .note h3,
