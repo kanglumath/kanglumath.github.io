@@ -4592,10 +4592,10 @@ mjx-assistive-mml {
 .container .btn-beautify {
   display: inline-block;
   margin: 0 4px 6px;
-  padding: 0 15px;
+  padding: 0 10px;
   background-color: var(--btn-beautify-color, #777);
   color: #fff;
-  line-height: 2;
+  line-height: 1.8;
   border-radius: 6px;
 }
 .container .btn-beautify.blue {
