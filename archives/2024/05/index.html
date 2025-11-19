@@ -64,26 +64,6 @@
     }
   
       
-      const activateDarkMode = () => {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      const activateLightMode = () => {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
-        }
-      }
-
-      btf.activateDarkMode = activateDarkMode
-      btf.activateLightMode = activateLightMode
-
-      const theme = saveToLocal.get('theme')
-    
-          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
-        
       
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
@@ -111,8 +91,8 @@
     noSupport: 'Browser Not Supported'
   },
   relativeDate: {
-    homepage: true,
-    post: true
+    homepage: false,
+    post: false
   },
   runtime: '',
   dateSuffix: {
@@ -133,8 +113,8 @@
   islazyloadPlugin: false,
   isAnchor: false,
   percent: {
-    toc: true,
-    rightside: true,
+    toc: false,
+    rightside: false,
   },
   autoDarkmode: false
 }</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
@@ -142,4 +122,4 @@
   isHighlightShrink: false,
   isToc: false,
   pageType: 'archive'
-}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"><link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet"><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/wp-content/uploads/2019/04/cropped-kang-lu-math.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-brands fa-studiovinari"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/CV/KangLu.pdf"><i class="fa-fw fa-regular fa-id-card"></i><span> CV</span></a></div><div class="menus_item"><a class="site-page" href="/research.html"><i class="fa-fw fa-solid fa-pen-to-square"></i><span> Research</span></a></div><div class="menus_item"><a class="site-page" href="/activities.html"><i class="fa-fw fa fa-calendar"></i><span> Activities</span></a></div><div class="menus_item"><a class="site-page" href="/teach.html"><i class="fa-fw fa-solid fa-person-chalkboard"></i><span> Teaching</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Kang Lu</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-brands fa-studiovinari"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/CV/KangLu.pdf"><i class="fa-fw fa-regular fa-id-card"></i><span> CV</span></a></div><div class="menus_item"><a class="site-page" href="/research.html"><i class="fa-fw fa-solid fa-pen-to-square"></i><span> Research</span></a></div><div class="menus_item"><a class="site-page" href="/activities.html"><i class="fa-fw fa fa-calendar"></i><span> Activities</span></a></div><div class="menus_item"><a class="site-page" href="/teach.html"><i class="fa-fw fa-solid fa-person-chalkboard"></i><span> Teaching</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">May 2024</h1></header><main class="layout hide-aside" id="content-inner"><div id="archive"><div class="article-sort-title">All Articles - 1</div><div class="article-sort"><div class="article-sort-item year">2024</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-05-08T23:46:57.000Z" title="Created 2024-05-08 19:46:57">2024-05-08</time></div><a class="article-sort-item-title" href="/teach/math2310_24sp.html" title="Calculus III 2024 Spring">Calculus III 2024 Spring</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div></main></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div></div></body></html>
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/wp-content/uploads/2019/04/cropped-kang-lu-math.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-brands fa-studiovinari"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/CV/KangLu.pdf"><i class="fa-fw fa-regular fa-id-card"></i><span> CV</span></a></div><div class="menus_item"><a class="site-page" href="/research.html"><i class="fa-fw fa-solid fa-pen-to-square"></i><span> Research</span></a></div><div class="menus_item"><a class="site-page" href="/activities.html"><i class="fa-fw fa fa-calendar"></i><span> Activities</span></a></div><div class="menus_item"><a class="site-page" href="/teach.html"><i class="fa-fw fa-solid fa-person-chalkboard"></i><span> Teaching</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Kang Lu</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-brands fa-studiovinari"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/CV/KangLu.pdf"><i class="fa-fw fa-regular fa-id-card"></i><span> CV</span></a></div><div class="menus_item"><a class="site-page" href="/research.html"><i class="fa-fw fa-solid fa-pen-to-square"></i><span> Research</span></a></div><div class="menus_item"><a class="site-page" href="/activities.html"><i class="fa-fw fa fa-calendar"></i><span> Activities</span></a></div><div class="menus_item"><a class="site-page" href="/teach.html"><i class="fa-fw fa-solid fa-person-chalkboard"></i><span> Teaching</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">May 2024</h1></header><main class="layout hide-aside" id="content-inner"><div id="archive"><div class="article-sort-title">All Articles - 1</div><div class="article-sort"><div class="article-sort-item year">2024</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2024-05-08T23:46:57.000Z" title="Created 2024-05-08 19:46:57">2024-05-08</time></div><a class="article-sort-item-title" href="/teach/math2310_24sp.html" title="Calculus III 2024 Spring">Calculus III 2024 Spring</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div></main></div><div id="rightside"><div id="rightside-config-hide"></div><div id="rightside-config-show"><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div></div></body></html>
