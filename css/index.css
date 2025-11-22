@@ -1522,6 +1522,7 @@ blockquote > :last-child {
 em {
   font-family: Libre Baskerville;
   font-weight: 500;
+  font-size: 0.95em;
 }
 :root {
   --hl-color: #90a4ae;
