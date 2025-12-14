@@ -1370,7 +1370,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: Roboto;
+  font-family: HSE Sans;
   font-weight: $font-weight;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -1522,7 +1522,7 @@ blockquote > :last-child {
 em {
   font-family: Libre Baskerville;
   font-weight: 500;
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 :root {
   --hl-color: #90a4ae;
