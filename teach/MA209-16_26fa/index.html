@@ -1,0 +1,426 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>初等数论（2026 年秋季） | Kang Lu</title><meta name="author" content="Kang Lu"><meta name="copyright" content="Kang Lu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="MA209-16 初等数论 — 2026 年秋季学期课程信息、教学日历、讲义、作业与测验。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="初等数论（2026 年秋季）">
+<meta property="og:url" content="https://kanglumath.github.io/teach/MA209-16_26fa/index.html">
+<meta property="og:site_name" content="Kang Lu">
+<meta property="og:description" content="MA209-16 初等数论 — 2026 年秋季学期课程信息、教学日历、讲义、作业与测验。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://kanglumath.github.io/wp-content/uploads/2019/04/cropped-kang-lu-math.jpg">
+<meta property="article:published_time" content="2026-10-16T06:21:31.017Z">
+<meta property="article:modified_time" content="2026-10-16T06:23:31.728Z">
+<meta property="article:author" content="Kang Lu">
+<meta property="article:tag" content="Kang Lu,math,陆康,数学">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://kanglumath.github.io/wp-content/uploads/2019/04/cropped-kang-lu-math.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://kanglumath.github.io/teach/MA209-16_26fa/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: false,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '初等数论（2026 年秋季）',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/wp-content/uploads/2019/04/cropped-kang-lu-math.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-brands fa-studiovinari"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/CV/KangLu.pdf"><i class="fa-fw fa-regular fa-id-card"></i><span> CV</span></a></div><div class="menus_item"><a class="site-page" href="/research.html"><i class="fa-fw fa-solid fa-pen-to-square"></i><span> Research</span></a></div><div class="menus_item"><a class="site-page" href="/activities.html"><i class="fa-fw fa fa-calendar"></i><span> Activities</span></a></div><div class="menus_item"><a class="site-page" href="/teach.html"><i class="fa-fw fa-solid fa-person-chalkboard"></i><span> Teaching</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Kang Lu</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa-brands fa-studiovinari"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/CV/KangLu.pdf"><i class="fa-fw fa-regular fa-id-card"></i><span> CV</span></a></div><div class="menus_item"><a class="site-page" href="/research.html"><i class="fa-fw fa-solid fa-pen-to-square"></i><span> Research</span></a></div><div class="menus_item"><a class="site-page" href="/activities.html"><i class="fa-fw fa fa-calendar"></i><span> Activities</span></a></div><div class="menus_item"><a class="site-page" href="/teach.html"><i class="fa-fw fa-solid fa-person-chalkboard"></i><span> Teaching</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">初等数论（2026 年秋季）</h1></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">初等数论（2026 年秋季）</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon fas fa-history"></i><span class="post-meta-label">Updated</span><time datetime="2026-10-16T06:23:31.728Z" title="Updated 2026-10-16 14:23:31">2026-10-16</time></span></div><div class="meta-secondline"></div></div></div><article class="container post-content" id="article-container"><div id="post-outdate-notice" data="{&quot;limitDay&quot;:365,&quot;messagePrev&quot;:&quot;It has been&quot;,&quot;messageNext&quot;:&quot;days since the last update, the content of the article may be outdated.&quot;,&quot;postUpdate&quot;:&quot;2026-10-16 14:23:31&quot;}" hidden></div><!--
+页面存放位置：source/teach/MA209-16_26fa/index.md
+页面引用的资料存放位置：source/teach/MA209-16_26fa/files/
+本页面沿用所提供模板中的 note 和 btn 标签。
+课程信息与暂定教学日历依据本地课程教学大纲整理。
+答疑时间及尚未提供的资料链接，请在公布后补充。
+-->
+
+<p><strong>MA209-16 · 初等数论 · 南方科技大学数学系 · 2026 年秋季学期</strong></p>
+<h3 id="课程基本信息"><a href="#课程基本信息" class="headerlink" title="课程基本信息"></a>课程基本信息</h3><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>信息</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>授课教师</td>
+<td>陆康，台州楼 212</td>
+</tr>
+<tr>
+<td>教师邮箱</td>
+<td><a href="mailto:luk@sustech.edu.cn">luk@sustech.edu.cn</a></td>
+</tr>
+<tr>
+<td>助教</td>
+<td>冯梓裕 · <a href="mailto:12532032@mail.sustech.edu.cn">12532032@mail.sustech.edu.cn</a></td>
+</tr>
+<tr>
+<td>答疑时间</td>
+<td>待公布</td>
+</tr>
+<tr>
+<td>上课时间</td>
+<td>第 1–16 周，星期一第 5–6 节；第 2–16 双周，星期三第 5–6 节</td>
+</tr>
+<tr>
+<td>上课地点</td>
+<td>智华楼 202</td>
+</tr>
+<tr>
+<td>学分与学时</td>
+<td>3 学分，48 学时</td>
+</tr>
+<tr>
+<td>课程性质</td>
+<td>专业选修课</td>
+</tr>
+<tr>
+<td>授课语言</td>
+<td>中英双语</td>
+</tr>
+<tr>
+<td>先修课程</td>
+<td>数学分析（二）（MA102a）或高等数学（下）（MA102B），以及线性代数（二）（MA104b）</td>
+</tr>
+</tbody></table>
+<div class="note info modern"><p>以下教学进度及考核日期均为暂定安排。上课时间、授课方式或考核日期如有调整，将通过学校指定教学平台提前通知。</p>
+</div>
+
+<h3 id="课程简介"><a href="#课程简介" class="headerlink" title="课程简介"></a>课程简介</h3><p>本课程介绍初等数论的核心思想、证明方法及若干现代应用。主要内容包括整数的整除性、素数与算术基本定理、最大公因数与欧几里得算法、同余及中国剩余定理、算术函数、原根、二次剩余与二次互反律，以及丢番图方程、连分数、密码学等选讲内容。</p>
+<p>课程强调从具体计算中发现规律、形成猜想并给出严格证明，同时展示经典理论与现代应用之间的联系。</p>
+<h3 id="教材与参考资料"><a href="#教材与参考资料" class="headerlink" title="教材与参考资料"></a>教材与参考资料</h3><p>指定教材为 <strong>肯尼思·罗森《初等数论及其应用》，第 7 版</strong>，培生出版社，2023 年。纸质版国际标准书号：<strong>978-0-13-735624-9</strong>。</p>
+<div class="note warning modern"><p>教学日历中的章节编号以教学大纲指定的第 7 版教材为准。部分补充讲义依据第 6 版整理，使用不同版本资料时，请按知识点名称核对内容。</p>
+</div>
+
+<p>参考资料：</p>
+<ul>
+<li>汤姆·阿波斯托尔：《解析数论导论》，施普林格出版社。</li>
+<li>潘承洞、潘承彪：《简明数论》，北京大学出版社。</li>
+<li>教师发布的补充讲义。</li>
+</ul>
+<h3 id="课程文件"><a href="#课程文件" class="headerlink" title="课程文件"></a>课程文件</h3><ul>
+<li><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209-16_syllabus_2026_fall.pdf" title="课程教学大纲"><i class="far fa-file-pdf"></i><span>课程教学大纲</span></a></li>
+<li><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209_CRT_and_Valuations.pdf" title="中国剩余定理与赋值补充讲义"><i class="far fa-file-pdf"></i><span>中国剩余定理与赋值补充讲义</span></a></li>
+</ul>
+<h3 id="考核与成绩构成"><a href="#考核与成绩构成" class="headerlink" title="考核与成绩构成"></a>考核与成绩构成</h3><table>
+<thead>
+<tr>
+<th>考核项目</th>
+<th>比例</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>平时作业</td>
+<td>10%</td>
+<td>预计约 13 次，去掉最低 3 次成绩，其余成绩取平均。</td>
+</tr>
+<tr>
+<td>期中考试</td>
+<td>35%</td>
+<td>暂定于第 9 周，即 11 月 2 日课内进行。</td>
+</tr>
+<tr>
+<td>期末考试</td>
+<td>35%</td>
+<td>在学校期末复习考试周内统一安排。</td>
+</tr>
+<tr>
+<td>课堂小测验</td>
+<td>20%</td>
+<td>共 5 次，取最高 4 次，每次占课程总成绩的 5%。</td>
+</tr>
+</tbody></table>
+<div class="note info modern"><p>五次小测均在课堂内完成，暂定日期为 <strong>9 月 21 日、10 月 19 日、11 月 11 日、11 月 25 日和 12 月 9 日</strong>。期末复习考试周为 <strong>2026 年 12 月 28 日至 2027 年 1 月 8 日</strong>，期末考试的具体日期以学校通知为准。</p>
+</div>
+
+<h3 id="课后作业"><a href="#课后作业" class="headerlink" title="课后作业"></a>课后作业</h3><p>提交方式、截止时间及迟交安排以每次作业通知为准。可以通过讨论加深理解，但提交内容必须由本人独立书写。</p>
+<table>
+<thead>
+<tr>
+<th>作业</th>
+<th>题目文件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>第 1 次作业</td>
+<td><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209-16_Homework01.pdf" title="第 1 次作业"><i class="far fa-file-pdf"></i><span>第 1 次作业</span></a></td>
+</tr>
+<tr>
+<td>第 2 次作业</td>
+<td><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209-16_Homework02.pdf" title="第 2 次作业"><i class="far fa-file-pdf"></i><span>第 2 次作业</span></a></td>
+</tr>
+<tr>
+<td>第 3 次作业</td>
+<td><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209-16_Homework03.pdf" title="第 3 次作业"><i class="far fa-file-pdf"></i><span>第 3 次作业</span></a></td>
+</tr>
+<tr>
+<td>第 4 次作业</td>
+<td><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209-16_Homework04.pdf" title="第 4 次作业"><i class="far fa-file-pdf"></i><span>第 4 次作业</span></a></td>
+</tr>
+<tr>
+<td>第 5 次作业</td>
+<td><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209-16_Homework05.pdf" title="第 5 次作业"><i class="far fa-file-pdf"></i><span>第 5 次作业</span></a></td>
+</tr>
+</tbody></table>
+<!-- 后续作业文件准备好后，可在此表格中继续添加。 -->
+
+<h3 id="教学日历与课堂讲义"><a href="#教学日历与课堂讲义" class="headerlink" title="教学日历与课堂讲义"></a>教学日历与课堂讲义</h3><div class="note success modern"><p>已准备好的讲义与小测题目列于下表。“待发布”表示本页面尚未添加相应文件。教学日历依据课程教学大纲中的暂定安排整理。</p>
+</div>
+
+<table>
+<thead>
+<tr>
+<th>日期</th>
+<th>教学内容与教材章节</th>
+<th>课堂讲义</th>
+<th>小测与考试</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>9 月 7 日</td>
+<td>课程导论；整数、数学归纳法与整除的基本性质。第 1 章（选讲）。</td>
+<td><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209-16_Lecture01_Integers_Induction_Divisibility.pdf" title="第 1 讲"><i class="far fa-file-pdf"></i><span>第 1 讲</span></a></td>
+<td>—</td>
+</tr>
+<tr>
+<td>9 月 14 日、16 日</td>
+<td>最大公因数、欧几里得算法、贝祖恒等式与线性丢番图方程。第 3 章。</td>
+<td>待发布</td>
+<td>—</td>
+</tr>
+<tr>
+<td>9 月 21 日</td>
+<td>素数、算术基本定理、素因子分解与素数进赋值。第 4 章。</td>
+<td>待发布</td>
+<td><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209-16_Quiz01.pdf" title="第 1 次小测"><i class="far fa-file-pdf"></i><span>第 1 次小测</span></a></td>
+</tr>
+<tr>
+<td>9 月 28 日、30 日</td>
+<td>同余、剩余系与线性同余方程。第 5 章。</td>
+<td>待发布</td>
+<td>—</td>
+</tr>
+<tr>
+<td>10 月 5 日</td>
+<td>国庆假期及教师出访时段，按学校安排进行自主学习或调课。</td>
+<td>指定阅读</td>
+<td>无小测</td>
+</tr>
+<tr>
+<td>10 月 12 日、14 日</td>
+<td>中国剩余定理、多项式同余与线性同余方程组。第 5 章。</td>
+<td><a class="btn-beautify " href="/teach/MA209-16_26fa/files/MA209_CRT_and_Valuations.pdf" title="中国剩余定理补充讲义"><i class="far fa-file-pdf"></i><span>中国剩余定理补充讲义</span></a></td>
+<td>—</td>
+</tr>
+<tr>
+<td>10 月 19 日</td>
+<td>威尔逊定理、费马小定理、欧拉定理与伪素数。第 7 章。</td>
+<td>待发布</td>
+<td>第 2 次小测，题目待发布</td>
+</tr>
+<tr>
+<td>10 月 26 日、28 日</td>
+<td>同余的应用；欧拉函数、约数函数与莫比乌斯反演；期中复习。第 6、8 章。</td>
+<td>待发布</td>
+<td>—</td>
+</tr>
+<tr>
+<td>11 月 2 日</td>
+<td>期中考试（暂定）。</td>
+<td>—</td>
+<td>期中考试，占总成绩的 35%</td>
+</tr>
+<tr>
+<td>11 月 9 日、11 日</td>
+<td>整数的阶与原根；素数模原根及原根存在性。第 10 章。</td>
+<td>待发布</td>
+<td>11 月 11 日：第 3 次小测，题目待发布</td>
+</tr>
+<tr>
+<td>11 月 16 日</td>
+<td>离散对数、指标运算、基于阶的素性检验与通用指数。第 10 章。</td>
+<td>待发布</td>
+<td>—</td>
+</tr>
+<tr>
+<td>11 月 23 日、25 日</td>
+<td>二次剩余、欧拉判别法、勒让德符号与二次互反律。第 12 章。</td>
+<td>待发布</td>
+<td>11 月 25 日：第 4 次小测，题目待发布</td>
+</tr>
+<tr>
+<td>11 月 30 日</td>
+<td>雅可比符号、欧拉伪素数与零知识证明。第 12 章。</td>
+<td>待发布</td>
+<td>—</td>
+</tr>
+<tr>
+<td>12 月 7 日、9 日</td>
+<td>勾股三元组、平方和；连分数与佩尔方程选讲。第 13–14 章。</td>
+<td>待发布</td>
+<td>12 月 9 日：第 5 次小测，题目待发布</td>
+</tr>
+<tr>
+<td>12 月 14 日</td>
+<td>教师出访时段，授课安排及补充材料另行通知。</td>
+<td>待公布</td>
+<td>无小测</td>
+</tr>
+<tr>
+<td>12 月 21 日、23 日</td>
+<td>算术函数的拓展；狄利克雷级数、欧拉乘积、格与闵可夫斯基定理选讲；课程总结与期末复习。补充讲义。</td>
+<td>待发布</td>
+<td>期末复习</td>
+</tr>
+</tbody></table>
+<div class="note warning modern"><p><strong>9 月 30 日</strong>及 <strong>12 月 14 日</strong>的授课安排另行通知。10 月 10 日补上单周星期三课程，不属于本课程的双周星期三安排。如有调整，以学校及课程后续通知为准。</p>
+</div>
+
+<h3 id="课程要求"><a href="#课程要求" class="headerlink" title="课程要求"></a>课程要求</h3><ul>
+<li><strong>出勤：</strong>请准时到课并参与课堂活动。因故缺勤者应按学校流程办理请假。</li>
+<li><strong>学术诚信：</strong>作业必须由本人独立书写；考试和小测严禁任何未经允许的协作或资料使用。</li>
+<li><strong>课程沟通：</strong>课程材料、作业和调整通知通过学校指定教学平台发布。对课程内容或考核安排有疑问时，请及时联系教师或助教。</li>
+</ul>
+</article><div class="tag_share"></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/wp-content/uploads/2019/04/cropped-kang-lu-math.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Kang Lu</div><div class="author-info-description"></div><div class="card-info-social-icons"><a class="social-icon" href="https://scholar.google.com/citations?user=Q2MyZa4AAAAJ&amp;hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square" style="color: #4E71FF;"></i></a><a class="social-icon" href="https://www.scopus.com/authid/detail.uri?authorId=57191570372" target="_blank" title="ai ai-scopus"><i class="ai ai-scopus-square" style="color: #F79B72;"></i></a><a class="social-icon" href="https://arxiv.org/a/lu_k_2.html" target="_blank" title="arXiv"><i class="ai ai-arxiv-square" style="color: #E55050;"></i></a></div></div><div class="sticky_layout"></div></div></main></div><div id="rightside"><div id="rightside-config-hide"><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"><script>(() => {
+  const loadMathjax = () => {
+    if (!window.MathJax) {
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          tags: 'ams',
+        },
+        chtml: {
+          scale: 0.95
+        },
+        options: {
+          enableMenu: true,
+          renderActions: {
+            findScript: [10, doc => {
+              for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+                const display = !!node.type.match(/; *mode=display/)
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+                const text = document.createTextNode('')
+                node.parentNode.replaceChild(text, node)
+                math.start = {node: text, delim: '', n: 0}
+                math.end = {node: text, delim: '', n: 0}
+                doc.math.push(math)
+              }
+            }, '']
+          }
+        }
+      }
+
+      const script = document.createElement('script')
+      script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+      script.id = 'MathJax-script'
+      script.async = true
+      document.head.appendChild(script)
+    } else {
+      MathJax.startup.document.state(0)
+      MathJax.texReset()
+      MathJax.typesetPromise()
+    }
+  }
+
+  btf.addGlobalFn('encrypt', loadMathjax, 'mathjax')
+  window.pjax ? loadMathjax() : window.addEventListener('load', loadMathjax)
+})()</script></div></div></body></html>
