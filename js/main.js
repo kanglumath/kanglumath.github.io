@@ -1,3 +1,4 @@
+// Academic customization: compact content, top-bar profiles and an optional contents panel.
 document.addEventListener('DOMContentLoaded', () => {
   let headerContentWidth, $nav
   let mobileSidebarOpen = false
@@ -484,9 +485,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         e.preventDefault()
         btf.scrollToDest(btf.getEleTop(document.getElementById(decodeURI(target.getAttribute('href')).replace('#', ''))), 300)
-        if (window.innerWidth < 900) {
-          $cardTocLayout.classList.remove('open')
-        }
+        const tocPanel = document.getElementById('toc-panel')
+        if (tocPanel) tocPanel.open = false
       }
 
       btf.addEventListenerPjax($cardToc, 'click', tocItemClickFn)
@@ -567,6 +567,27 @@ document.addEventListener('DOMContentLoaded', () => {
     btf.addEventListenerPjax(window, 'scroll', tocScrollFn, { passive: true })
   }
 
+  const tocPanelFn = () => {
+    const panel = document.getElementById('toc-panel')
+    if (!panel) return
+
+    const toggle = document.getElementById('toc-toggle')
+    panel.open = false
+    toggle.setAttribute('aria-expanded', 'false')
+    btf.addEventListenerPjax(panel, 'toggle', () => {
+      toggle.setAttribute('aria-expanded', String(panel.open))
+    })
+    btf.addEventListenerPjax(document, 'pointerdown', e => {
+      if (panel.open && !panel.contains(e.target)) panel.open = false
+    })
+    btf.addEventListenerPjax(document, 'keydown', e => {
+      if (e.key === 'Escape' && panel.open) {
+        panel.open = false
+        toggle.focus()
+      }
+    })
+  }
+
   const handleThemeChange = mode => {
     const globalFn = window.globalFn || {}
     const themeChange = globalFn.themeChange || {}
@@ -635,23 +656,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const saveStatus = $htmlDom.contains('hide-aside') ? 'show' : 'hide'
       btf.saveToLocal.set('aside-status', saveStatus, 2)
       $htmlDom.toggle('hide-aside')
-    },
-    'mobile-toc-button': (p, item) => { // Show mobile toc
-      const tocEle = document.getElementById('card-toc')
-      tocEle.style.transition = 'transform 0.3s ease-in-out'
-
-      const tocEleHeight = tocEle.clientHeight
-      const btData = item.getBoundingClientRect()
-
-      const tocEleBottom = window.innerHeight - btData.bottom - 30
-      if (tocEleHeight > tocEleBottom) {
-        tocEle.style.transformOrigin = `right ${tocEleHeight - tocEleBottom - btData.height / 2}px`
-      }
-
-      tocEle.classList.toggle('open')
-      tocEle.addEventListener('transitionend', () => {
-        tocEle.style.cssText = ''
-      }, { once: true })
     },
     'chat-btn': () => { // Show chat
       window.chatBtnFn()
@@ -911,6 +915,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollFn()
 
     forPostFn()
+    tocPanelFn()
     GLOBAL_CONFIG_SITE.pageType !== 'shuoshuo' && btf.switchComments(document)
     openMobileMenu()
   }
